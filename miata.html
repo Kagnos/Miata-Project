@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Street Rōnin</title>
+    <link rel="stylesheet" href="miata.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="miata.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <a class="title-link" href="inspiration.html">Inspiration</a>
+    </nav>
+
+    <h1 class="title-header">Project Street Ronin</h1><br>
+    <p class="title-p">This is my outline and plan for my next car. This project has two main goals:</p>
+    <p class="title-p"><b>1.</b> Learn what it means to drive a car. I want this car to be an extension of myself. It will teach me the importance of shifting, braking, steering, driving feel, listening to your car, etc.</p>
+    <p class="title-p"><b>2.</b> Slowly build the car into a unique build as an expression of myself. This car will be dark, subtle, focused, and uniquely mine.</p>
+
+<main>
+
+    <header class="main-header" id="first-main-header">1. Base Platform</header>
+    <ul class="main-p">
+        <li>2001 – 2003 LS or SE trim (comes with a torsen LSD and better suspension)</li>
+        <li>Hardtop if possible, or will buy one later</li>
+        <li>Manual transmission ONLY</li>
+        <li>Color? Preferably black, titanium gray, or dark blue</li>
+    </ul>
+
+    <header class="main-header">2. Wheels & Tires</header>
+    <div class="main-flexbox">
+    <ul class="main-p">
+        <li>Konig Hexaform wheels in black or a gunmetal/graphite(15x8 +25)</li>
+    </ul>
+    <img class="main-img" src="./Pictures/hexaform_matteblack_white-332838786.jpg" alt="Black Konig Hexaform Wheels" onclick="openFullscreen(this)">
+    </div>
+
+    <header class="main-header">3. Suspension</header>
+    <ul class="main-p">
+        <li></li>
+    </ul>
+
+    <header class="main-header">4. Interior</header>
+    <ul class="main-p">
+        <li></li>
+    </ul>
+
+    <header class="main-header">5. Sound</header>
+    <ul class="main-p">
+        <li></li>
+    </ul>
+
+    <header class="main-header">6. Exterior</header>
+    <div class="main-flexbox">
+    <ul class="main-p">
+        <li>OEM hardtop</li>
+        <li>Spoiler</li>
+        <li>Front lip</li>
+        <li>Smoked headlights</li>
+        <li>Smoked taillights</li>
+    </ul>
+    <div class="img-group">
+        <img class="main-img" src="./Pictures/Sleek Mazda MX-5 in Gray.png" alt="Early render of the build" onclick="openFullscreen(this)">
+        <img class="main-img" src="./Pictures/Post your SILVER Miata_Roadster_MX-5.jpeg" alt="I really like the look of the smoked headlights on this miata" onclick="openFullscreen(this)">
+    </div>
+    </div>
+
+    <header class="main-header">7. Extras</header>
+    <ul class="main-p">
+        <li></li>
+    </ul>
+
+</main>
+
+    <div id="img-overlay" onclick="closeFullscreen()">
+        <div class="overlay-content" onclick="event.stopPropagation()">
+            <img id="overlay-img" src="" alt="Full View">
+            <p id="overlay-caption"></p>
+        </div>
+    </div>
+
+</body>
+</html>
