@@ -4,7 +4,16 @@ function openFullscreen(img) {
     const overlayCaption = document.getElementById('overlay-caption');
 
     overlayImg.src = img.src;
-    overlayCaption.textContent = img.alt || 'Photo'; // Use alt as caption
+
+    const captionText = img.alt || 'Photo';
+    const productLink = img.dataset.link;
+
+    if (productLink) {
+        overlayCaption.innerHTML = `<a href="${productLink}" target="_blank" rel="noopener noreferrer" style="color: #B4B4BE; text-decoration: underline;">${captionText}</a>`;
+    } else {
+        overlayCaption.textContent = captionText;
+    }
+
     overlay.style.display = 'flex';
 }
 

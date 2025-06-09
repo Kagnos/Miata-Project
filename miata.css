@@ -2,10 +2,6 @@ body {
     background: linear-gradient(180deg, #2B2833 100vh, #393644 200vh, #4B4759 300vh);
 }
 
-br {
-    color: black;
-}
-
 nav {
     font-size: 1.5rem;
     text-align: right;
@@ -27,13 +23,22 @@ nav {
   color: #B4B4BE;
   text-decoration: none;
 }
+
 .title-header {
     font-family: 'Orbitron', 'Inter', sans-serif;
     font-size: 5rem;
     font-weight: bold;
-    margin: 30vh auto 5vh auto;
+    margin: 20vh auto 5vh auto;
     text-align: center;
     color: #1b1b1f;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #B4B4BE;
+    margin: 10vh auto;
+    width: 80%;
 }
 
 .title-p {
@@ -121,4 +126,8 @@ main ul li {
   margin-top: 1rem;
   font-size: 1.2rem;
   color: #B4B4BE;
+}
+
+#end-of-page {
+  margin: 30vh auto 15vh auto;
 }

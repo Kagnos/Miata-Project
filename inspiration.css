@@ -1,0 +1,51 @@
+body {
+    background-color: #393644;
+}
+
+nav {
+    font-size: 1.5rem;
+    text-align: right;
+    color: #1b1b1f;
+    margin: 2vh 1vw;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.title-header {
+    font-family: 'Orbitron', 'Inter', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 15vh auto 5vh 2vw;
+    text-align: left;
+    color: #1b1b1f;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #B4B4BE;
+    margin: 5vh auto 5vh 2vw;
+    width: 80%;
+}
+
+.title-link, .title-link:visited, .title-link:hover, .title-link:active {
+  color: #1b1b1f;
+  text-decoration: none;
+}
+
+.main-p {
+    font-size: 2rem;
+    text-align: left;
+    color: #B4B4BE;
+    margin: 1vh 2vw;
+    max-width: 85vw;
+    overflow-wrap: break-word;
+}
+
+.main-link, .main-link:visited, .main-link:hover, .main-link:active {
+  color: #B4B4BE;
+  text-decoration: none;
+}
