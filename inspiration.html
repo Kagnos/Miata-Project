@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Street Rōnin</title>
+    <title>Project Street Rōnin - Inspiration</title>
     <link rel="stylesheet" href="inspiration.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="miata.js"></script>
@@ -12,24 +12,45 @@
 <body>
 
     <nav>
-        <a class="title-link" href="miata.html">Back</a>
+        <a class="title-link" href="title.html">Title</a>
+        <a class="title-link" href="outline.html">Outline</a>
+        <a class="title-link" href="documentation.html">Documentation</a>
+        <a class="title-link">-----------</a>
+        <a class="title-link" href="philosophy.html">Philosophy</a>
     </nav>
 
 <main>
 
     <h1 class="title-header">Inspiration</h1><hr>
+    <div class="main-flexbox">
     <ul class="main-p">
         <li><a class="main-link" href="https://en.wikipedia.org/wiki/R%C5%8Dnin#" target="_blank" rel="noopener noreferrer">Rōnin Wikipedia</a></li>
         <li><a class="main-link" href="https://shadetreespeedshop.com/current-project/" target="_blank" rel="noopener noreferrer">Odd build I found (Wabi-Sabi Miata)</a></li>
         <li><a class="main-link" href="https://chatgpt.com/c/6837bf30-ac2c-8000-8f5d-ba5f0cdb2952" target="_blank" rel="noopener noreferrer">ChatGPT convo 1</a></li>
         <li><a class="main-link" href="https://chatgpt.com/c/6840456c-05f0-8000-b229-00c019b27ea1" target="_blank" rel="noopener noreferrer">ChatGPT convo 2</a></li>
-        <li><a class="main-link" href="https://chatgpt.com/c/6846d4a6-3a9c-8000-a0ec-a699fd3097aa" target="_blank" rel="noopener noreferrer">ChatGPT: steering wheels and bucket seats</a></li>
+        <li><a class="main-link" href="https://chatgpt.com/c/6846d4a6-3a9c-8000-a0ec-a699fd3097aa" target="_blank" rel="noopener noreferrer">ChatGPT: Steering wheels and bucket seats</a></li>
+        <li><a class="main-link" href="https://chatgpt.com/c/6840f9d9-9468-8000-8f44-2721b511de12" target="_blank" rel="noopener noreferrer">ChatGPT: Wheels</a></li>
         <li><a class="main-link" href="https://revlimiter.net/store/gauges-nb.php" target="_blank" rel="noopener noreferrer">Custom Gauges</a></li>
         <li><a class="main-link" href="https://www.reddit.com/r/Miata/comments/igwryu/interior_done/" target="_blank" rel="noopener noreferrer">Beautiful custom interior job on reddit</a></li>
         <li><a class="main-link" href="https://www.reddit.com/r/Miata/comments/1kp11dd/lets_see_those_interiors/" target="_blank" rel="noopener noreferrer">More interior inspiration on reddit</a></li>
     </ul>
 
+    <div class="img-group">
+        <img class="main-img" src="./Pictures/Screenshot from 2025-06-02 19-27-10.png" alt="Some old Honda, theres just something that speaks to me about this faded paint" onclick="openFullscreen(this)">
+        <img class="main-img" src="./Pictures/Screenshot from 2025-06-02 19-27-25.png" alt="Some old Honda, theres just something that speaks to me about this faded paint" onclick="openFullscreen(this)">
+        <img class="main-img" src="./Pictures/Screenshot from 2025-06-14 16-59-25.png" alt="I love the color and texture of the RPF1's on this MR2" data-link="https://www.fitmentindustries.com/wheel-offset-gallery/884329/1991-toyota-mr2-enkei-rpf1-cxracing-coilovers-federal-595-rs-rr" onclick="openFullscreen(this)">
+        <img class="main-img" src="./Pictures/Screenshot from 2025-06-14 17-00-26.png" alt="I love the color and texture of the RPF1's on this MR2" data-link="https://www.fitmentindustries.com/wheel-offset-gallery/884329/1991-toyota-mr2-enkei-rpf1-cxracing-coilovers-federal-595-rs-rr" onclick="openFullscreen(this)">
+    </div>
+    </div>
+
 </main>
+
+    <div id="img-overlay" onclick="closeFullscreen()">
+        <div class="overlay-content" onclick="event.stopPropagation()">
+            <img id="overlay-img" src="" alt="Full View">
+            <p id="overlay-caption"></p>
+        </div>
+    </div>
 
 </body>
 </html>
